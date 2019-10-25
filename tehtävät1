@@ -1,0 +1,128 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>HTML Cheat Sheet</title>
+    </head>
+    <body>
+        <!-- Headings -->
+        <h1>Heading One</h1>
+        <h2>Heading Two</h2>
+        <h3>Heading Three</h3>
+        <h4>Heading Four</h4>
+        <h5>Heading five</h5>
+        <h6>Heading Six</h6>
+
+        <!-- Paragraph -->
+        <p>
+                Teksti perustettiin Helsingissä tammikuussa 2007. Ensimmäinen toimintavuosi keräsi parhaimmillaan kolmekymmentä näytelmäkirjailijaa saman pöydän ääreen, minkä jälkeen toiminta on jatkunut vireänä.
+
+                Teksti pyrkii yhteisönä luomaan yhteyksiä näytelmäkirjailijoiden ja muun teatterikentän välille, sekä avaamaan keskustelua teattereiden ja näytelmäkirjailijoiden välisistä suhteista. Toiminnan kivijalka ovat näytelmäkirjailijatapaamiset, joissa keskustellaan työskentelyolosuhteista, työtavoista ja sisällöistä. Kirjailijoiden aloitteesta järjestetään myös lukupiirejä, joissa työn alla olevia näytelmiä luetaan ja kommentoidaan.
+                
+                Teksti toimii <strong>äheisessä yhteistyössä Suomen</strong> Näytelmäkirjailijat ja Käsikirjoittajat ry:n kanssa.
+                
+                
+                Vuonna 2018 Tekstin ytimen muodostavat Hanna Ryti, Heini Junkkaala, Antti Lehtinen, Marie Kajava, Elisa Salo, Henriikka Himma, Valto Kuuluvainen, Asta Honkamaa, Jussi Moila, Elli Salo, Minna Puolanto ja Iida Hämeen-Anttila.
+                
+                Tekstin <em>perustajia ja jäseniä</em> mm.:
+                
+                Heini Junkkaala (s. 1975) on helsinkiläinen freelance-näytelmäkirjailija ja -dramaturgi. Hän on valmistunut teatteritaiteen maisteriksi vuonna 2006. Junkkaalan näytelmiä ovat mm. Soita minulle Billy, Kristuksen morsian, Toinen vasemmalta ja Sexton. Junkkaala on myös ohjannut joidenkin näytelmiensä kantaesitykset. Tällä hetkellä Junkkaala toimii Kansallisteatterin kotikirjailijana. Viime vuosina Junkkaala on kiinnostunut myös elokuvakäsikirjoittamisesta. Junkkaalan ensimmäinen elokuva, Kristuksen morsian, sai ensiesityksensä YLE:llä keväällä 2014.
+        </p>
+        <p>
+                Teksti perustettiin Helsingissä tammikuussa 2007. <a href="http://google.com" target="blank">Ensimmäinen toimintavuosi <a/>keräsi parhaimmillaan kolmekymmentä näytelmäkirjailijaa saman pöydän ääreen, minkä jälkeen toiminta on jatkunut vireänä.
+
+                Teksti pyrkii yhteisönä luomaan yhteyksiä näytelmäkirjailijoiden ja muun teatterikentän välille, sekä avaamaan keskustelua teattereiden ja näytelmäkirjailijoiden välisistä suhteista. Toiminnan kivijalka ovat näytelmäkirjailijatapaamiset, joissa keskustellaan työskentelyolosuhteista, työtavoista ja sisällöistä. Kirjailijoiden aloitteesta järjestetään myös lukupiirejä, joissa työn alla olevia näytelmiä luetaan ja kommentoidaan.
+                
+                Teksti toimii läheisessä yhteistyössä Suomen Näytelmäkirjailijat ja Käsikirjoittajat ry:n kanssa.
+                
+                
+                Vuonna 2018 Tekstin ytimen muodostavat Hanna Ryti, Heini Junkkaala, Antti Lehtinen, Marie Kajava, Elisa Salo, Henriikka Himma, Valto Kuuluvainen, Asta Honkamaa, Jussi Moila, Elli Salo, Minna Puolanto ja Iida Hämeen-Anttila.
+                
+                Tekstin perustajia ja jäseniä mm.:
+                
+                Heini Junkkaala (s. 1975) on helsinkiläinen freelance-näytelmäkirjailija ja -dramaturgi. Hän on valmistunut teatteritaiteen maisteriksi vuonna 2006. Junkkaalan näytelmiä ovat mm. Soita minulle Billy, Kristuksen morsian, Toinen vasemmalta ja Sexton. Junkkaala on myös ohjannut joidenkin näytelmiensä kantaesitykset. Tällä hetkellä Junkkaala toimii Kansallisteatterin kotikirjailijana. Viime vuosina Junkkaala on kiinnostunut myös elokuvakäsikirjoittamisesta. Junkkaalan ensimmäinen elokuva, Kristuksen morsian, sai ensiesityksensä YLE:llä keväällä 2014.
+        </p>
+
+        <!-- Lists -->
+        <ul>
+            <li>List Item 1</li>
+            <li>List Item 2</li>
+            <li>List Item 3</li>
+            <li>List Item 4</li>
+        </ul>
+
+        <ol>
+            <li>List Item 1</li>
+            <li>List Item 2</li>
+            <li>List Item 3</li>
+            <li>List Item 4</li>
+        </ol>
+
+        <!-- Table -->
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Age</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Brad Traversy</td>
+                    <td>Brad@something.com</td>
+                    <td>35</td>
+                </tr>
+                <tr>
+                    <td>John Doe</td>
+                    <td>Jdoe@something.com</td>
+                    <td>45</td>
+                </tr>
+                <tr>
+                    <td>Sara Williams</td>
+                    <td>Sara@something.com</td>
+                    <td>25</td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <hr>
+        <br>
+        <!-- Forms-->
+        <form action="process.php" method="GET">
+            <div>
+                <lable>First Name</lable>
+                <input type="text" name="firstname">
+            </div>
+            <br>
+            <div>
+                <lable>Last Name</lable>
+                <input type="text" name="lastname">
+            </div>
+            <br>
+            <div>
+                <lable>Email</lable>
+                <input type="email" name="email">
+            </div>
+            <br>
+            <div>
+                <lable>Message</lable>
+                <textarea name="message"></textarea>
+            </div>
+            <br>
+            <div>
+                <lable>Gender</lable>
+                <select name="gender">
+                <option value="male">male</option>
+                <option value="female">female</option>
+                <option value="other">other</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label>Age:</label>
+            </div>
+        </form>
+    </body>
+</html>
