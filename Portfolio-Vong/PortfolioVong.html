@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio-Vong</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <style>  
+      *{margin: 0; padding: 0;}
+        ul{list-style: none;}
+        .menu a {text-decoration: none;color;width: ;}
+        .menu ul{position: absolute;top: 42px;left: 0;display: none;}
+        .menu li{float: left;width: 150px;line-height:  1.5em;position: relative; text-align: center;
+            background:green;padding: 10px;}
+        .menu li:hover{background:green;cursor: pointer;}
+        .menu ul ul{left: 150px;top: 0px;}
+        p {
+            border: 05px solid gray;padding: 15px;
+            height: 340px;width: 750px;
+            overflow: hidden;
+            background: #fffccc;(109, 143, 59);
+        }
+        body{
+            background-color: lavender;
+        }
+    </style>
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+       <script>
+           $(document).ready(function() {
+               $(".menu li").hover(function(){
+                   $(this).find("ul:first").slideDown(500);
+               }, function() {
+                   $(this).find("ul:first").hide(300);
+           });
+       });
+       </script><br>
+</head>
+<body>
+    <did class="w3-content">
+       <ul class="menu">
+            <li><a href="file:///D:/GitHub/HTML-CSS-JS/Portfolio-Vong/index.html">ETUSIVU</a></li>
+            <li><a href="#">HISTORIA</a>
+                <ul>
+                    <li><a href="file:///D:/GitHub/HTML-CSS-JS/Portfolio-Vong/PortfolioCV1.html">Koulutus</a></li>
+                    <li><a href="file:///D:/GitHub/HTML-CSS-JS/Portfolio-Vong/PortfolioCV2.html">Työkokemus</a></li>
+                </ul>
+            </li>
+            <li><a href="#">OSA-ALA</a>
+                <ul>
+                    <li><a href="#">ICT Taidos</a>
+                        <ul>
+                            <li><a href="#">MS.Word</a></li>
+                            <li><a href="#">MS.Excel</a></li>
+                            <li><a href="#">PowerPoint</a>
+                            <li><a href="#">MS.Access</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Palvelin-Server</a>
+                        <ul>
+                            <li><a href="#">WinServer-2012</a></li>
+                            <li><a href="#">Linux Ubuntu-Dekstop+
+                                 Ubuntu-Server 18.04</a></li>
+                           
+                        </ul>
+                    </li>
+                    <li><a href="#">Ohjemoity</a>
+                        <ul>
+                            <li><a href="#"> Web HTML+
+                                CSS-JS</a></li>
+                            <li><a href="#">Visual Bacis 6.0</a></li>
+                            <li><a href="#">Arduino C +
+                                 Raspberry PI </a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="#">OTA YHTETTÄ</a>
+                <ul>
+                    <li><a href="file:///D:/GitHub/HTML-CSS-JS/Portfolio-Vong/PortfolioContact.html">☎📞Contact</a></li>
+                
+                </ul>
+            </li>
+            <li><a href="#">LOGIN</a>
+                <ul>
+                    <li><a href="file:///D:/GitHub/HTML-CSS-JS/Portfolio-Vong/Login.html">🔒Salasana</a></li>
+                </ul>
+            </li>
+       </ul> 
+    </did><br><br><br><br><br><br><br><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="kuvaCV3.jpg" width="400px" height="350px">
+    &nbsp;&nbsp;<b>SU SENH VONG</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>ICT asentaja</i>
+ <br><br>
+    <p>"Life is a succession of lessons which must be lived to be understood"<br> -HELEN KELLER! <br>
+        
+            <img src="laptop.jpg" width="250px" height="150px"><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Experience</b><br>
+            <i>-Kiina kielen Opettajaksi.</i><br>
+            <i>-Koulu Johtajaksi</i>.<br>
+            <i>-Ohjemoity.</i><br>
+            <i>-Yrittäjä yhden kertaa</i>.<br>
+        <hr>    
+        
+</body>
+</html>
